@@ -5,7 +5,7 @@ let moment = require('moment');
 let fs = require('fs')
 let Spotify = require('node-spotify-api');
 let spotify = new Spotify(keys.spotify);
-let nodeFunction = process.argv[2]
+let nodeCommand = process.argv[2]
 let input = ''
 let nodeArgs = process.argv
 for (var i = 3; i < nodeArgs.length; i++) {
@@ -17,7 +17,7 @@ for (var i = 3; i < nodeArgs.length; i++) {
     }
 }
 let queryUrl;
-switch (nodeFunction) {
+switch (nodeCommand) {
     case `concert-this`:
         if (input === null) {
             input = 'honne'
@@ -116,6 +116,11 @@ switch (nodeFunction) {
                         console.log(data.data[i].venue.name + ' ' + data.data[i].venue.city + ', ' + data.data[i].venue.country + ' ' + moment(data.data[i].datetime).format('MMMM Do YYYY, h:mm a'))
                     }
                 })
+            } else {
+                return console.log('The document does not contain any commands')
             }
         })
 }
+fs.appendFile('log.txt', '\n' + nodeCommand + ' ' + input, function(err){
+    if (err) return console.log(err)
+})
