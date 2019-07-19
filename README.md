@@ -64,5 +64,4 @@
 
 ### My role
 
-        My name is Stephen Oveson and I am the developer of this project.
-        I built this from scratch using JS and NodeJS alongside npm.
+        I am the developer of this project and have built it from scratch using the mentioned technologies above.
