@@ -51,10 +51,18 @@
 * spotify-this-song LIRI command
 ![spotify-this-song screenshot](./assets/screenshots/spotify-this-song.png)
 
-### Link to depolyed version
+* movie-this command before
+![movie-this](./assets/screenshots/beforecommand.png)
 
+* movie-this after command
+![movie-this after](./assets/screenshots/CommandSent.png)
 
 ### Technologies Used
-
+* NodeJS
+* JS
+* NPM
 
 ### My role
+
+        My name is Stephen Oveson and I am the developer of this project.
+        I built this from scratch using JS and NodeJS alongside npm.
