@@ -48,6 +48,7 @@
 
 
 ### Screenshots
+    * spotify-this-song LIRI command
 ![spotify-this-song screenshot](./assets/screenshots/spotify-this-song.png)
 
 ### Link to depolyed version
