@@ -18,8 +18,10 @@ for (var i = 3; i < nodeArgs.length; i++) {
 }
 let queryUrl;
 switch (nodeCommand) {
+    case 'concert':
+    case 'concerts':
     case `concert-this`:
-        if (input === null) {
+        if (!input) {
             input = 'honne'
         }
         queryUrl = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp"
@@ -29,8 +31,9 @@ switch (nodeCommand) {
             }
         })
         break;
+    case 'spotify':
     case 'spotify-this-song':
-        if (input === '') {
+        if (!input) {
             input = 'The Sign Ace of Base'
         }
         spotify.search({ type: 'track', query: input }, function (err, data) {
@@ -44,8 +47,10 @@ switch (nodeCommand) {
             console.log('Preview Url: ' + data.tracks.items[0].external_urls.spotify)
         });
         break;
+    case 'movie':
+    case 'movies':
     case 'movie-this':
-        if (input === '') {
+        if (!input) {
             input = 'Mr.Nobody'
         }
         queryUrl = "http://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=trilogy";
