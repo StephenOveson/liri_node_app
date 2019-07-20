@@ -32,6 +32,7 @@ switch (nodeCommand) {
         })
         break;
     case 'spotify':
+    case 'spotify-this':
     case 'spotify-this-song':
         if (!input) {
             input = 'The Sign Ace of Base'
