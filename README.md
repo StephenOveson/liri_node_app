@@ -62,7 +62,7 @@
 ![movie-this](./assets/screenshots/beforecommand.png)
 
 * movie-this after command
-![movie-this](./assets/screenshots/CommandSent.png)
+![movie-this](./assets/screenshots/command.png)
 
 ### Technologies Used
 * NodeJS
