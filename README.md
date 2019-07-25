@@ -56,24 +56,30 @@
 
 ### Screenshots
 * spotify-this-song LIRI command
-        spotify, spotify-this and spotify-this-song commands all work for the below screenshot command
 ![spotify-this-song screenshot](./assets/screenshots/spotify-this-song.png)
 
+        spotify, spotify-this and spotify-this-song commands all work for the above screenshot command
+
 * movie-this command before
-        movie, movies, movie-this commands all work for the below screenshot command
 ![movie-this](./assets/screenshots/beforecommand.png)
 
+        movie, movies, movie-this commands all work for the above screenshot command
+
+
 * movie-this after command
-        movie, movies, movie-this commands all work for the below screenshot command
 ![movie-this](./assets/screenshots/command.png)
 
+        movie, movies, movie-this commands all work for the above screenshot command
+
 * concert-this command
-        concert, concerts, and concert-this commands all work for the below screenshot command
 ![concert-this](./assets/screenshots/concert-this.png)
 
+        concert, concerts, and concert-this commands all work for the above screenshot command
+
 * do-what-it-says command
-        This follows the file included of random.txt
 ![do-what-it-says](./assets/screenshots/do-what-it-says.png)
+        This follows the file included of random.txt
+
 
 ### Technologies Used
 * NodeJS
